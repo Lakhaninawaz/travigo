@@ -1,0 +1,82 @@
+// .sticky {
+//     position: fixed !important;
+//     top: 0;
+//     top: 0px;
+//   transition: top 0.3s ease-in-out;
+//   }
+  @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+.navBar {   
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    height: 50px;
+    z-index: 5;
+    gap: 275px;
+    align-items: center;
+
+    .logo {
+        display: inline;
+        margin-right: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'Old Standard TT', serif;
+        cursor: pointer;
+    }
+    
+    .center{
+        justify-content: center !important;
+    }
+
+    .links {
+        font-family:  'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        align-items: center;
+
+        li{
+        color: #555F68;
+        cursor: pointer;
+        align-items: center;
+
+        select{      
+            font-size: 16px;      
+        font-family:  'Trebuchet MS', sans-serif;
+        color: #555F68;
+    background-color: transparent;
+            font-weight: 600;
+            width: 100px;
+            border: none;
+            outline: none;
+
+            option{
+                background-color: transparent;
+            }
+        }
+        }
+
+        .btn{
+            padding: 10px 20px;
+            background-color: #45af54;
+            border-radius: 20px;
+            color: white;
+        }
+
+        .last{
+            display: flex;
+            gap: 20px;
+            margin-right: 100px;
+            
+            
+        }
+
+        .icon{
+            font-size: 17px;
+            position: relative;
+            color: #FC6752;
+        }
+    }
+}
