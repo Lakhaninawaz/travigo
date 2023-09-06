@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className={`navBar `}>
       <section className="logo">Travigo</section>
-      <ul className="center links">
+<ul className="center links">
       <li>Home</li>
       <li>About</li>
       <li>

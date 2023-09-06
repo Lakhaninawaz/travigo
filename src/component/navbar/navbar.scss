@@ -80,3 +80,21 @@
         }
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .navBar {
+      gap: 150px;
+    }
+  }
+
+@media screen and (max-width: 1150px) {
+    .navBar {
+      gap: 50px;
+    }
+  }
+
+@media screen and (max-width: 800) {
+    .navBar {
+      gap: 50px;
+    }
+  }
