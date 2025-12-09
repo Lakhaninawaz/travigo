@@ -70,7 +70,9 @@
   border: 1px solid rgba(0, 212, 255, 0.2);
   border-radius: 16px;
   padding: 30px;
-  margin: 50px 0;
+  margin: 50px auto;
+  max-width: 1000px;
+  width: 100%;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
   animation: slideUp 0.8s ease-out 0.2s both;
 
@@ -79,6 +81,7 @@
     grid-template-columns: 1fr 1fr 1fr auto;
     gap: 16px;
     align-items: flex-end;
+    width: 100%;
   }
 
   .input-wrapper {
@@ -415,12 +418,18 @@
     }
   }
 
-  .search-box .search-input-group {
-    grid-template-columns: 1fr;
-    gap: 12px;
+  .search-box {
+    padding: 24px;
+    max-width: 100%;
+
+    .search-input-group {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
 
     .btn-search {
       grid-column: 1 / -1;
+      width: 100%;
     }
   }
 }
